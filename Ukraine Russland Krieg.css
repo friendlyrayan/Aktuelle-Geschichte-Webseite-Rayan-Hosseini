@@ -1,0 +1,109 @@
+body{
+  margin:0;
+  background:#f2f2f2;
+  font-family:Arial, sans-serif;
+}
+
+/* Rahmen links und rechts */
+
+/* Inhalt */
+.content{
+  max-width:950px;
+  margin:0 auto;
+  padding:60px 40px 80px 40px;
+  text-align:center;
+}
+
+/* Titel */
+h1{
+  font-size:64px;
+  color:#1a33ff;
+  margin-bottom:10px;
+  font-family:"Brush Script MT", "Lucida Handwriting", cursive;
+}
+
+h2{
+  font-size:30px;
+  color:#222;
+  margin-bottom:20px;
+  font-family:Georgia, serif;
+}
+
+.intro{
+  font-size:22px;
+  color:#333;
+  line-height:1.6;
+  max-width:800px;
+  margin:0 auto 40px auto;
+}
+
+h3{
+  font-size:32px;
+  margin-bottom:20px;
+  color:#111;
+  font-family:Georgia, serif;
+}
+
+/* Tabelle / Zeitstrahl */
+.timeline-table{
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: white;
+}
+
+.timeline-table th{
+  background:#1a33ff;
+  color:white;
+  padding:18px;
+  font-size:20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.timeline-table td{
+  padding:18px;
+  border:1px solid #d9d9d9;
+  font-size:18px;
+  text-align:left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.timeline-table tr:nth-child(even){
+  background:#f8f8f8;
+}
+
+.timeline-table img{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+.timeline-table th:nth-child(1),
+.timeline-table td:nth-child(1){
+  width: 12%;
+}
+
+.timeline-table th:nth-child(2),
+.timeline-table td:nth-child(2){
+  width: 53%;
+}
+
+.timeline-table th:nth-child(3),
+.timeline-table td:nth-child(3){
+  width: 35%;
+}
+.image-caption{
+font-size:14px;
+color:#444;
+margin-top:8px;
+text-align:center;
+}
+.content{
+  max-width: 1500px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}

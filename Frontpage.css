@@ -1,0 +1,127 @@
+h1 {
+    color: blue;
+    font-size: 90px;
+    text-align: center;
+    font-family: Brush Script MT, cursive;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    margin-top: -10px;
+    text-align: center;
+    font-family: Brush Script MT, cursive;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+    max-width: 1000px;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+margin:0;
+font-family:Arial;
+}
+
+.left-frame{
+position:fixed;
+left:0;
+top:0;
+width:100px;
+height:100%;
+background:linear-gradient(blue,purple);
+}
+
+.right-frame{
+position:fixed;
+right:0;
+top:0;
+width:100px;
+height:100%;
+background:linear-gradient(purple,blue);
+}
+
+.content{
+margin-left:100px;
+margin-right:100px;
+padding:40px;
+text-align:center;
+}
+
+.right-decoration{
+    position:fixed;
+    right:80px;
+    top:0;
+    width:40px;
+    height:100%;
+   
+    background:linear-gradient(180deg,#00c6ff,#0072ff);
+}
+
+.left-decoration{
+    position:fixed;
+    left:80px;
+    top:0;
+    width:40px;
+    height:100%;
+  background:linear-gradient(180deg,#ff00cc,#3333ff);
+}
+.left-box{
+position:absolute;
+left:120px;
+top:220px;
+width:220px;
+text-align:center;
+}
+.right-box{
+position:absolute;
+right:120px;
+top:250px;
+width:200px;
+text-align:center;
+}
+
+
+/* Button links */
+.left-box{
+position:absolute;
+left:120px;
+top:250px;
+}
+
+/* Bild unten mittig */
+.main-image{
+text-align:center;
+margin-top:40px;
+}
+
+.main-image img{
+max-width:900px;
+width:90%;
+height:auto;
+border-radius:10px;
+}
+
+/* Button Design */
+.button{
+display:inline-block;
+padding:12px 25px;
+background-color:#0066ff;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+.side-title{
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.side-image{
+width:100%;
+border-radius:8px;
+margin-bottom:10px;
+}
